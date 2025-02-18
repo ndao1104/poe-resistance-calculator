@@ -1,0 +1,65 @@
+.container {
+  padding: 16px;
+}
+
+.stats-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+
+.stats-table th,
+.stats-table td {
+  padding: 8px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.equipment-name {
+  font-weight: bold;
+  color: red;
+}
+
+.resistance-cell input {
+  width: 50px;
+  padding: 4px;
+  text-align: center;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+.fire {
+  background-color: #ffcccc;
+}
+
+.cold {
+  background-color: #cce5ff;
+}
+
+.light {
+  background-color: #fff3cd;
+}
+
+.chaos {
+  background-color: #e1d5e7;
+}
+
+.total-cell {
+  font-weight: bold;
+}
+
+.total-cell.fire {
+  background-color: #ff9999;
+}
+
+.total-cell.cold {
+  background-color: #99ccff;
+}
+
+.total-cell.light {
+  background-color: #ffeb99;
+}
+
+.total-cell.chaos {
+  background-color: #d0b3e6;
+}
